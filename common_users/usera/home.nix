@@ -2,7 +2,7 @@
 
 {
   home.username = "usera";
-  home.homeDirectory = "/home/usera";
+  home.homeDirectory = lib.mkForce "/home/usera";
   
   # This value determines the Home Manager release that your
   # configuration is compatible with.

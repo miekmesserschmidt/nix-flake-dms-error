@@ -68,7 +68,7 @@
                 Type=Application
                 DesktopNames=Hyprland
               '';
-              # passthru.providedSessions = [ "session_type_a" ];
+              passthru.providedSessions = [ "session_type_a" ];
             })
           ];
 
