@@ -33,7 +33,7 @@
           }
 
           session_type_a.nixosModules.default
-          # session_type_b.nixosModules.default
+          session_type_b.nixosModules.default
 
           ./configuration.nix
 
